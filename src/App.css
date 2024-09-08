@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1050px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+  width: 10px;
+  background: rgba(128, 128, 128, 0.438);
+}
+body::-webkit-scrollbar-thumb{
+  width: 10px;
+  background: #106656;
+  border-radius: 25px;
+}

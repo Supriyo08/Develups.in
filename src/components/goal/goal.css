@@ -1,0 +1,97 @@
+.goal{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(76deg, rgba(0,182,150,1) 0%, rgba(12,204,153,1) 100%);
+}
+.goal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10rem;
+}
+.goal-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal-img img{
+    height: 400px;
+}
+.goal-data h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.goal-data p{
+    margin-bottom: 1rem;
+}
+.goal-man{
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+}
+.goal-man img{
+    height: 280px;
+}
+
+@media (max-width: 1134px) {
+    .goal-container{
+        width: 70%;
+      }
+    .goal-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5rem;
+    }
+    .goal-man img{
+        height: 190px;
+    }
+    
+    .goal-data h2{
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+    .goal-data p{
+        margin-bottom: 3rem;
+        font-size: 12px;
+    }
+    
+}
+@media (max-width: 833px){
+    .goal{
+        padding-top: 5rem;
+        height: 100%;
+    }
+    .goal-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .goal-img img{
+        height: 350px;
+    }
+    .goal-man img{
+        height: 170px;
+    }
+}
+@media (max-width: 400px){
+    .goal-man img{
+        height: 130px;
+    }
+    .goal-img img{
+        height: 280px;
+    }
+
+}
+@media (max-width: 300px){
+    .goal-man img{
+        height: 100px;
+    }
+    .goal-img img{
+        height: 250px;
+    }
+}
